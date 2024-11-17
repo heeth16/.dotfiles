@@ -5,6 +5,7 @@
 	clean = git-lfs clean -- %f
 [push]
 	default = simple
+	autoSetupRemote = true
 [alias]
 	oneline = log --oneline --decorate-refs-exclude=refs/tags
 	unstage = restore --staged .
