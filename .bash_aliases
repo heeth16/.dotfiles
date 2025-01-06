@@ -2,6 +2,7 @@
 export PATH="$PATH:$HOME/.scripts"
 
 # To set vim as default editor
+alias vi=vim
 export VISUAL=vim
 export EDITOR="$VISUAL"
 
