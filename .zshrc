@@ -23,10 +23,10 @@ CASE_SENSITIVE="true"
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(git)
 
-source $ZSH/oh-my-zsh.sh
-
 # Dump ZSH_COMPDUMPs to cache directory.
 export ZSH_COMPDUMP=$ZSH/cache/.zcompdump-$HOST
+
+source $ZSH/oh-my-zsh.sh
 
 # Do not add commands to history beginning with a space.
 setopt HIST_IGNORE_SPACE
