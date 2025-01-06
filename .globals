@@ -4,8 +4,10 @@ export VISUAL=vim
 export EDITOR="$VISUAL"
 
 # GIT Autocompletions
-if [ -f /usr/share/bash-completion/completions/git ]; then
-	source /usr/share/bash-completion/completions/git
+if [ -n "$BASH_VERSION" ]; then
+    if [ -f /usr/share/bash-completion/completions/git ]; then
+        source /usr/share/bash-completion/completions/git
+    fi
 fi
 
 
