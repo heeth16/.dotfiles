@@ -35,3 +35,8 @@ setopt HIST_IGNORE_SPACE
 if [ -f $HOME/.globals ]; then
 	. $HOME/.globals
 fi
+
+# Source local specific definitions
+if [ -f $HOME/.locals ]; then
+	. $HOME/.locals
+fi
