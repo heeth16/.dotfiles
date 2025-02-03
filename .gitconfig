@@ -11,3 +11,9 @@
 	unstage = restore --staged .
 [commit]
 	template = ~/.git-templates/commit.template
+[credential]
+	helper = store --file ~/.git-credentials
+[core]
+	ignorecase = false
+[pull]
+	rebase = true
