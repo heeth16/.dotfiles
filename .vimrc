@@ -5,3 +5,4 @@ set list
 set listchars=tab:→\ ,space:·
 set clipboard=unnamedplus
 set cursorline
+set ruler
